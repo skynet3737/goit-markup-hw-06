@@ -455,29 +455,21 @@
       <div class="modal">
         <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
         <form action="">
-          <label
-            >Имя
-            <input type="text" />
-          </label>
+          <label for="name">Имя</label>
+          <input type="text" id="name" />
 
-          <label
-            >Телефон
-            <input type="tel" />
-          </label>
+          <label for="tel">Телефон</label>
+          <input type="tel" id="tel" />
 
-          <label
-            >Почта
-            <input type="email" />
-          </label>
+          <label for="mail">Почта</label>
+          <input type="email" id="mail" />
 
-          <label
-            >Комментарий
-            <textarea name="" id=""></textarea>
-          </label>
-          <label>
-            <input type="checkbox" />
-            Соглашаюсь с рассылкой и принимаю Условия договора
-          </label>
+          <label for="coment">Комментарий</label>
+          <textarea name="" id="coment"></textarea>
+
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox">Соглашаюсь с рассылкой и принимаю Условия договора </label>
+
           <button type="submit">Отправить</button>
         </form>
         <svg class="modal-close" data-modal-close>

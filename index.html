@@ -435,7 +435,7 @@
 
           <div class="footer-form">
             <h2 class="footer-title">Подпишитесь на рассылку</h2>
-            <form class="footer-input" action="">
+            <form class="footer-input">
               <label>
                 <input class="footer-mail" type="email" name="mail" placeholder="E-mail" />
               </label>
@@ -454,7 +454,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
-        <form action="">
+        <form>
           <div class="modal-indent">
             <label class="font-style" for="name">Имя</label>
             <input class="modal-input" type="text" id="name" />
@@ -483,18 +483,20 @@
             <label class="font-style" for="coment">Комментарий</label>
             <textarea
               class="modal-textarea"
-              name=""
+              name="coments"
               id="coment"
               placeholder="Введите текст"
             ></textarea>
           </div>
 
-          <input type="checkbox" id="checkbox" />
-          <label for="checkbox"
-            >Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
-          </label>
+          <div>
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox">
+              Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+            </label>
+          </div>
 
-          <button type="submit">Отправить</button>
+          <button class="modal-button" type="submit">Отправить</button>
         </form>
         <svg class="modal-close" data-modal-close>
           <use href="./images/symbol-defs.svg#icon-close"></use>

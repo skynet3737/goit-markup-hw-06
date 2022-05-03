@@ -9,6 +9,7 @@
   --line-color: #ececec;
   --bg-color: #2f303a;
   --icon-color: #afb1b8;
+  --modal-btn: #2196F3;
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -877,4 +878,22 @@ border-radius: 4px;
       top: 28px;
       position: absolute;
       left: 15px;
+}
+
+.modal-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 55px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--fourth-color);
+  background: var(--modal-btn);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
 }

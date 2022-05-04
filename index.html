@@ -457,7 +457,7 @@
         <form>
           <div class="modal-indent">
             <label class="font-style" for="name">Имя</label>
-            <input class="modal-input" type="text" id="name" />
+            <input class="modal-input" type="text" id="name" autofocus required />
             <svg class="modal-svg">
               <use href="./images/symbol-defs.svg#icon-person-black"></use>
             </svg>
@@ -465,7 +465,7 @@
 
           <div class="modal-indent">
             <label class="font-style" for="tel">Телефон</label>
-            <input class="modal-input" type="tel" id="tel" />
+            <input class="modal-input" type="tel" id="tel" required />
             <svg class="modal-svg">
               <use href="./images/symbol-defs.svg#icon-phone-black"></use>
             </svg>
@@ -473,7 +473,7 @@
 
           <div class="modal-indent">
             <label class="font-style" for="mail">Почта</label>
-            <input class="modal-input" type="email" id="mail" />
+            <input class="modal-input" type="email" id="mail" required />
             <svg class="modal-svg">
               <use href="./images/symbol-defs.svg#icon-email-black"></use>
             </svg>
@@ -489,11 +489,19 @@
             ></textarea>
           </div>
 
-          <div>
-            <input type="checkbox" id="checkbox" />
+          <div class="modal-agreement">
+            <input class="modal-checkbox" type="checkbox" id="checkbox" />
             <label for="checkbox">
-              Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+              Соглашаюсь с рассылкой и принимаю <a class="modal-link" href="">Условия договора</a>
             </label>
+
+            <svg class="modal-check vector">
+              <use href="./images/symbol-defs.svg#icon-Vector"></use>
+            </svg>
+
+            <svg class="modal-check check">
+              <use href="./images/symbol-defs.svg#icon-check"></use>
+            </svg>
           </div>
 
           <button class="modal-button" type="submit">Отправить</button>

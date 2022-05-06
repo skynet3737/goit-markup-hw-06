@@ -835,6 +835,7 @@ border-radius: 4px;
 .modal-title {
   margin-bottom: 12px;
 
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -911,6 +912,7 @@ border-radius: 4px;
 }
 
 .modal-checkbox {
+  margin-right: 8px;
   opacity: 0;
 }
 
@@ -932,7 +934,7 @@ border-radius: 4px;
 .modal-check {
   position: absolute;
   top: 3px;
-  left: 13px;
+  left: 10px;
   width: 16px;
   height: 15px;
   pointer-events: none
